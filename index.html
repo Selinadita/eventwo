@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head></head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WeddingOrganizerEvent</title>
+<!-- Bootstrap 5 CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navbar Section -->
+    <nav class="navbar navbar-expand-lg navbar-glass fixed-top" style="background-color: white;">
+        <div class="container-fluid fw-semibold">
+            <a class="navbar-brand text-black py-2 px-3" href="#"><span class="text-1">Wedding</span>Ekspo</a>
+            <button class="navbar-toggler text-black border-0" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="bi bi-list fs-1"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active text-black py-2 px-3" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item me-2">
+                        <a class="nav-link text-black py-2 px-3" href="#about">About</a>
+                    </li>
+                    <li class="nav-item me-2">
+                        <a class="nav-link text-black py-2 px-3" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item me-2">
+                        <a class="nav-link text-black py-2 px-3" href="#gallery">Gallery</a>
+                    </li>
+                    <li class="nav-item me-2">
+                        <a class="nav-link text-black py-2 px-3 btn-1 text-white rounded" href="#register">Register</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero-section text-light d-flex align-items-center justify-content-center text-center">
+        <div class="overlay w-100 h-100 d-flex flex-column justify-content-center align-items-center p-5">
+            <h2 class="display-8"><span class="text-1">Create lasting memories</span> on your special day.</h2>
+            <p class="lead">This event gives you the opportunity to meet wedding organizers who understand <br> your
+                needs and desires.</p>
+            <a class="btn btn-1 mt-3" href="#ticket" role="button">Get Your Tickets</a>
+        </div>
+    </div>
+
+    <!-- Countdown Section -->
+    <div class="container shadow-lg"
+        style="position: relative; top: -60px; border-radius: 50px; overflow: hidden; background-color: #FFF1E4;">
+        <div class="row justify-content-center text-hour fw-bold py-4 px-3 text-center">
+            <div class="col-6 col-md-3">
+                <h2 id="days" class="display-5 mb-0 text-hour">301</h2>
+                <small class="text-muted fw-semibold">Days</small>
+            </div>
+            <div class="col-6 col-md-3">
+                <h2 id="hours" class="display-5 mb-0 text-hour">06</h2>
+                <small class="text-muted fw-semibold">Hours</small>
+            </div>
+            <div class="col-6 col-md-3 mt-4 mt-md-0">
+                <h2 id="minutes" class="display-5 mb-0 text-hour">13</h2>
+                <small class="text-muted fw-semibold">Minutes</small>
+            </div>
+            <div class="col-6 col-md-3 mt-4 mt-md-0">
+                <h2 id="seconds" class="display-5 mb-0 text-hour">21</h2>
+                <small class="text-muted fw-semibold">Seconds</small>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <section id="about" class="container mt-5 glass-effect">
+        <div class="text-center">
+            <h2 class="fw-bold"><span class="text-1">About</span> Us</h2>
+            <p class="lead"> Event details for wedding organizer exhibition.</p>
+        </div>
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <img src="./img/foto6.jpg" class="img-fluid rounded" alt="Wedding Organizer Team">
+            </div>
+            <div class="col-md-6">
+                <h3 class="fw-bold">Event Details</h3>
+                <ul>
+                    <li>Event Name: Wedding Expo 2025</li>
+                    <li>Date: Saturday, October 5, 2025</li>
+                    <li>Time: 10:00 AM - 6:00 PM</li>
+                    <li>Innovative and Trendsetting Designs</li>
+                    <li>Location: Grand Ballroom, Luxor Hotel Jalan Mewah No. 123, Jakarta, Indonesia</li>
+                </ul>
+                <p>Wedding Expo 2025 is a leading wedding expo that brings together wedding organizers, wedding vendors
+                    and related service providers in one place. The event is designed to help brides-to-be find services
+                    and products that suit their needs and preferences, from planning to the wedding day.
+                </p>
+                <button type="button" class="btn btn-1 mt-3">More Information</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="container mt-5">
+        <div class="text-center">
+            <h2 class="fw-bold">Our <span class="text-1">Services</span></h2>
+            <p class="lead">Here are the activities available to participate in.</p>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-4 position-relative overflow-hidden hover-card shadow">
+                    <img src="./img/foto5.jpg" class="card-img-top" alt="Venue Selection">
+                    <div
+                        class="overlay-text d-flex flex-column justify-content-center align-items-center text-white text-center">
+                        <h5 class="fw-bold">Vendors</h5>
+                        <p class="mb-0">50 vendors</p>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Vendors</h5>
+                        <p class="card-text">Our event features a curated list of 50 vendors, including experts in
+                            decoration, wedding attire, and much more.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4 position-relative overflow-hidden hover-card shadow">
+                    <img src="./img/livemusic.jpg" class="card-img-top" alt="Live Music">
+                    <div
+                        class="overlay-text d-flex flex-column justify-content-center align-items-center text-white text-center">
+                        <h5 class="fw-bold">Live Music</h5>
+                        <p class="mb-0">3 Band</p>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Live Music</h5>
+                        <p class="card-text">During this wedding fair, experience a special experience with live music
+                            performances that will enliven the atmosphere of the event.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4 position-relative overflow-hidden hover-card shadow">
+                    <img src="./img/seminar.jpg" class="card-img-top" alt="Experienced Speakers">
+                    <div
+                        class="overlay-text d-flex flex-column justify-content-center align-items-center text-white text-center">
+                        <h5 class="fw-bold">Experienced Speakers</h5>
+                        <p class="mb-0">4 Speakers</p>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Experienced Speakers</h5>
+                        <p class="card-text">Gain fresh and inspiring insights from our expert speakers on design
+                            trends, helping attendees .</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Registration Section -->
+    <section id="register" class="container mt-5 p-5 shadow"
+        style="background-color: #fff; border: 1px solid #F94A95; border-top-right-radius: 200px; border-bottom-left-radius: 200px; min-height: 400px;">
+        <div class="row align-items-center">
+            <!-- Gambar di kiri -->
+            <div class="col-md-6 text-center mb-4 mb-md-0">
+                <img src="img/foto11.jpg" alt="Wedding Expo" class="img-fluid rounded shadow w-75">
+            </div>
+
+            <!-- Form di kanan -->
+            <div class="col-md-6 px-5">
+                <h3 class="text-center mb-4">Wedding Expo 2025 Visitor Registration</h3>
+                <p class="text-center text-muted">Register now and get FREE access to top wedding vendors!</p>
+
+                <!-- Step Tracker -->
+                <div class="d-flex justify-content-center mb-5">
+                    <div class="text-center mx-3">
+                        <div class="circle-step bg-warning text-white rounded-circle mb-2 border">1</div>
+                        <small>Fill in Data</small>
+                    </div>
+                    <div class="step-line align-self-center"></div>
+                    <div class="text-center mx-3">
+                        <div class="circle-step bg-light text-muted rounded-circle mb-2 border">2</div>
+                        <small>Payment</small>
+                    </div>
+                    <div class="step-line align-self-center"></div>
+                    <div class="text-center mx-3">
+                        <div class="circle-step bg-light text-muted rounded-circle mb-2 border">3</div>
+                        <small>Get Ticket</small>
+                    </div>
+                </div>
+
+                <form id="registrationForm">
+                    <div class="mb-3">
+                        <label for="fullName" class="form-label">Full Name</label>
+                        <input type="text" class="form-control" id="fullName" placeholder="Enter your full name"
+                            required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Active Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your active email"
+                            required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="phone" class="form-label">Phone Number / WhatsApp</label>
+                        <input type="tel" class="form-control" id="phone" placeholder="Enter your active phone number"
+                            required>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label for="weddingDate" class="form-label">Planned Wedding Date</label>
+                            <input type="date" class="form-control" id="weddingDate">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="comingWith" class="form-label">Coming With</label>
+                            <select class="form-select" id="comingWith">
+                                <option selected disabled>Select</option>
+                                <option value="alone">Alone</option>
+                                <option value="partner">Partner</option>
+                                <option value="family">Family</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Have you chosen a vendor?</label>
+                        <div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="vendorChoice" id="yesVendor"
+                                    value="yes">
+                                <label class="form-check-label" for="yesVendor">Yes</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="vendorChoice" id="noVendor"
+                                    value="no">
+                                <label class="form-check-label" for="noVendor">Not Yet</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="d-grid">
+                        <button type="button" class="btn btn-1" onclick="updateProgress(100)">Register Now</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="container mt-5">
+        <div class="text-center">
+            <h2 class="fw-bold"> <span class="text-1">Gallery</span>Event</h2>
+            <p class="lead">“Take a peek at the fun and excitement of the Wedding Expo through the following gallery.”
+            </p>
+        </div>
+        <div id="galleryCarousel" class="carousel slide mt-5" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="./img/foto5.jpg" class="d-block w-100 rounded" alt="Wedding 1">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="./img/foto10.jpg" class="d-block w-100 rounded" alt="Wedding 2">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="./img/foto7.jpg" class="d-block w-100 rounded" alt="Wedding 3">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="./img/foto8.jpg" class="d-block w-100 rounded" alt="Wedding 4">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="./img/foto9.jpg" class="d-block w-100 rounded" alt="Wedding 5">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="./img/foto12.jpg" class="d-block w-100 rounded" alt="Wedding 6">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#galleryCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon bg-dark rounded-circle p-3" aria-hidden="true"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#galleryCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon bg-dark rounded-circle p-3" aria-hidden="true"></span>
+            </button>
+        </div>
+    </section>
+
+    <footer class="text-light py-4 mt-5" id="contact" style="background-color: #F94A95; margin-top: 50px;">
+        <div class="container text-center">
+            <p class="mb-2">&copy; 2025 Wedding Bliss. All rights reserved.</p>
+            <p class="mb-4">Contact us: <a href="mailto:info@weddingbliss.com" class="text-light"
+                    style="text-decoration: none;">info@weddingbliss.com</a></p>
+            <div class="social-links">
+                <a href="#" class="text-light me-3" title="Follow us on Instagram" style="text-decoration: none;">
+                    <i class="bi bi-instagram"></i> Instagram
+                </a>
+                <a href="#" class="text-light" title="Follow us on Facebook" style="text-decoration: none;">
+                    <i class="bi bi-facebook"></i> Facebook
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
